@@ -3,9 +3,13 @@
   (general
     (links 4)
     (no_connects 0)
-    (area 124.334999 74.804999 175.385001 118.235001)
+    (area 124.334999 74.804999 175.385001 119.485)
     (thickness 1.6)
+<<<<<<< HEAD
     (drawings 7)
+=======
+    (drawings 8)
+>>>>>>> 3215a1aef7afc4632114704480e93a0f1b5555ab
     (tracks 17)
     (zones 0)
     (modules 5)
@@ -14,8 +18,13 @@
 
   (page A4)
   (layers
+<<<<<<< HEAD
     (0 F.Cu signal)
     (31 B.Cu signal)
+=======
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
+>>>>>>> 3215a1aef7afc4632114704480e93a0f1b5555ab
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
@@ -23,7 +32,7 @@
     (36 B.SilkS user hide)
     (37 F.SilkS user)
     (38 B.Mask user hide)
-    (39 F.Mask user)
+    (39 F.Mask user hide)
     (40 Dwgs.User user hide)
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
@@ -62,7 +71,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements FFFF3F1F)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions false)
@@ -644,7 +653,14 @@
     (pad 1 thru_hole circle (at 0 0) (size 5.99948 5.99948) (drill 2.49936) (layers *.Cu *.Mask))
   )
 
+<<<<<<< HEAD
   (gr_text "Designed by <cone>\nat Hackspace Manchester\n2018" (at 149.86 80.01) (layer B.SilkS)
+=======
+  (gr_text "PRODUCTION ID\nMUST BE ON\nTHIS (BACK) SILK" (at 150.495 99.695) (layer B.Fab)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "Designed by Committee\nat Hackspace Manchester\n2018" (at 149.86 80.01) (layer B.SilkS)
+>>>>>>> 3215a1aef7afc4632114704480e93a0f1b5555ab
     (effects (font (size 1.2 1.2) (thickness 0.3)) (justify mirror))
   )
   (gr_line (start 162.56 74.93) (end 175.26 96.52) (angle 90) (layer Edge.Cuts) (width 0.25))
