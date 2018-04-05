@@ -3,11 +3,7 @@
   (general
     (links 4)
     (no_connects 0)
-<<<<<<< HEAD
-    (area 124.334999 74.804999 175.385001 118.235001)
-=======
     (area 124.334999 74.804999 175.385001 119.485)
->>>>>>> 3215a1aef7afc4632114704480e93a0f1b5555ab
     (thickness 1.6)
     (drawings 7)
     (tracks 17)
@@ -637,15 +633,9 @@
       (xy 0.536977 -4.539402) (xy 0.697932 -4.645079) (xy 0.864099 -4.626846)) (layer F.Mask) (width 0.01))
   )
 
-<<<<<<< HEAD
-  (module Wire_Pads:SolderWirePad_single_2-5mmDrill (layer F.Cu) (tedit 0) (tstamp 5A99E0A6)
-    (at 149.86 92.075)
-    (fp_text reference REF** (at 0 -5.08) (layer F.SilkS)
-=======
   (module Wire_Pads:SolderWirePad_single_2-5mmDrill (layer F.Cu) (tedit 5AA3F7AC) (tstamp 5A99E0A6)
     (at 149.86 92.075)
     (fp_text reference REF** (at 0 -5.08) (layer F.SilkS) hide
->>>>>>> 3215a1aef7afc4632114704480e93a0f1b5555ab
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SolderWirePad_single_2-5mmDrill (at 1.27 5.08) (layer F.Fab)
@@ -654,11 +644,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 5.99948 5.99948) (drill 2.49936) (layers *.Cu *.Mask))
   )
 
-<<<<<<< HEAD
-  (gr_text "Designed by <cone>\nat Hackspace Manchester\n2018" (at 149.86 80.01) (layer B.SilkS)
-=======
   (gr_text "Designed by Committee\nat Hackspace Manchester\n2018" (at 149.86 80.01) (layer B.SilkS)
->>>>>>> 3215a1aef7afc4632114704480e93a0f1b5555ab
     (effects (font (size 1.2 1.2) (thickness 0.3)) (justify mirror))
   )
   (gr_line (start 162.56 74.93) (end 175.26 96.52) (angle 90) (layer Edge.Cuts) (width 0.25))
